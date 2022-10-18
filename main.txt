@@ -83,7 +83,7 @@ if __name__ == '__main__':
            speak("i am fine sir,how can i help you")
 
        elif 'arijit singh' in query:
-           speak("ok sir playing mustafa zahid")
+           speak("ok sir playing arijit singh")
            music_dir = r"C:\Users\aman\Downloads\Aashique2"
            songs = os.listdir(music_dir)
            os.startfile(os.path.join(music_dir, songs[0]))
